@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.8.1.201607290748-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/main/resources/spring/spring_service.xml</config>
+		<config>src/main/resources/spring/spring-servlet.xml</config>
+		<config>src/main/resources/spring/user/spring_user_service.xml</config>
+	</configs>
+	<autoconfigs>
+		<config>src/main/resources/spring/user/spring-user-servlet.xml</config>
+		<config>src/main/resources/spring/spring_dao.xml</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
